@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Fermi_144-month_Fermi_all-sky_hammer_2160x1080.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("#");
   background-position: 50% 50%;
 }
 
@@ -83,7 +83,7 @@
   min-width: 42px;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 0 auto 0 0;
+  margin: 29px auto 0 0;
 }
 
 .u-section-2 .u-icon-1 {
@@ -100,15 +100,6 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 20px auto 0 0;
-}
-
-.u-section-2 .u-btn-1 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-2 .u-text-3 {
   line-height: 2;
   font-size: 1rem;
   width: 735px;
@@ -126,7 +117,7 @@
     min-height: 100px;
   }
 
-  .u-section-2 .u-text-3 {
+  .u-section-2 .u-text-2 {
     width: 720px;
   }
 }
@@ -155,6 +146,7 @@
   }
 
   .u-section-2 .u-social-icons-1 {
+    margin-top: 0;
     margin-left: auto;
   }
 
@@ -163,10 +155,6 @@
   }
 
   .u-section-2 .u-text-2 {
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-text-3 {
     width: 540px;
   }
 }
@@ -184,7 +172,7 @@
     min-height: 344px;
   }
 
-  .u-section-2 .u-text-3 {
+  .u-section-2 .u-text-2 {
     width: 340px;
   }
 }
