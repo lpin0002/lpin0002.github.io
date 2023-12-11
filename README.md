@@ -1,1 +1,0 @@
-# Liam Pinchbeck - Computational Astrophysicist
