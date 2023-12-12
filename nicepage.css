@@ -42780,50 +42780,87 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
+.u-header .u-section-row-1 {
   background-image: none;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 118px;
+  min-height: 86px;
 }
 
 .u-header .u-image-1 {
-  width: 326px;
-  height: 94px;
-  margin: 4px auto 0 0;
+  width: 358px;
+  height: 73px;
+  margin: 7px 0 0 auto;
 }
 
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+.u-header .u-text-1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-family: Merriweather, serif;
+  margin: -66px 570px 13px 29px;
+}
+.u-header .u-section-row-2 {
+  background-image: none;
+}
+
+.u-header .u-sheet-2 {
+  min-height: 34px;
 }
 
 .u-header .u-menu-1 {
-  margin: -103px 0 60px auto;
+  margin: -1px auto 0;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 700;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
   letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 326px;
-    height: 95px;
+    width: 358px;
   }
 
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -104px;
+  .u-header .u-text-1 {
+    margin-right: 399px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-right: 179px;
   }
 }
 
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 0;
+  }
+}
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 82px;
+  }
+
+  .u-header .u-image-1 {
+    width: 340px;
+    height: 69px;
+  }
+}
 
 .u-footer .u-sheet-1 {
   min-height: 94px;
